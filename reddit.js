@@ -7,8 +7,7 @@ var titleSub = reddit.data.children
 var allTitles = [];
 
 var title = titleSub.forEach(function(array) {
-allTitles +
-= array.data.title + "\n ------------------------ \n";
+allTitles += array.data.title + "\n ------------------------ \n";
 })
 
 console.log(allTitles);
