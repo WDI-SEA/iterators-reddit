@@ -50,10 +50,3 @@ reddit.data.children.forEach(function (child){
 
 var sum = scoreArray.reduce(count);
 console.log(sum);
-
-
-
-
-
-
-//console.log(reddit["data"]);
