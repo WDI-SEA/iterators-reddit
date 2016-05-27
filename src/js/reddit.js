@@ -31,11 +31,11 @@ var forEachResultofFilterResult = filterResult.forEach(function(element) {
 console.log('---------------------------------------------------------');
 
 // reduce - Use reduce to obtain the sum of all the score values across all posts in the dataset
-var count = 0;
+var startingpoint = 0;
 var sum = reddit.data.children.reduce(function(total, elementToAddToCount) {
   // returns the running total plus the next element
   return total + elementToAddToCount.data.score;
-}, count);
+}, startingpoint);
 
 console.log(sum);
 
