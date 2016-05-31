@@ -1,5 +1,11 @@
 var reddit = require('../data.json');
 
-// Write your solutions below
+var runningTotal = 0;
 
-console.log(reddit.data);
+var forReduceScore = reddit.data.children.reduce(function(count, element) {
+return count + (element.data.score);
+}, runningTotal);
+
+console.log(forReduceScore);
+
+360
