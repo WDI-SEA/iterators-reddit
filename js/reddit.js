@@ -35,7 +35,7 @@ var permalinks = [];
 data.forEach(function(item){
 	var permalink = item.data.permalink;
 	permalinks.push(permalink);
-})
+});
 
 var appendedPermalinks = permalinks.map(function(item){
 	return "http://reddit.com" + item;
@@ -46,15 +46,14 @@ console.log("");
 // Q. 3 'filter'
 console.log("QUESTION THREE");
 var posts = [];
-
 data.forEach(function(item){
 	posts.push(item.data);
-})
+});
 var filter = function(item){
 	if (item.selftext) {
 		return item;
 	}
-}
+};
 
 var filteredPosts = posts.filter(filter);
 filteredPosts.forEach(function(item) {
@@ -67,10 +66,10 @@ console.log("QUESTION 4")
 var scores = [];
 data.forEach(function(item){
 	scores.push(item.data.score);
-})
-var sum = function(a, b) {
-	return a + b;
-}
+});
+var sum = function(currentSum, num) {
+	return currentSum + num;
+};
 
 var sumOfScores = scores.reduce(sum);
 console.log(sumOfScores);
