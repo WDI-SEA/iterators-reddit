@@ -1,0 +1,145 @@
+console for 
+
+document.getElementsByClassName('header');
+[]
+document.querySelector('.header').classList
+VM2400:1 Uncaught TypeError: Cannot read property 'classList' of null(…)(anonymous function) @ VM2400:1
+document.getElementsById('header');
+VM4054:1 Uncaught TypeError: document.getElementsById is not a function(…)(anonymous function) @ VM4054:1
+document.getElementById('header');
+<div id=​"header" role=​"banner">​…​</div>​
+var header = document.getElementById('header');
+undefined
+header.style.backgroundColor = 'green';
+"green"
+document.getElementById('header-bottom-right');
+<div id=​"header-bottom-right">​<span class=​"user">​…​</span>​<span class=​"separator">​|​</span>​<ul class=​"flat-list hover">​…​</ul>​</div>​
+var bottomRight = document.getElementById('header-bottom-right');
+undefined
+bottomRight.innerHTML = 'Hello Brit';
+"Hello Brit"
+bottomRight.style.fontWeight = 'bold';
+"bold"
+getElementsByClassName('.thumbnail').style.width = '20px';
+VM13035:1 Uncaught ReferenceError: getElementsByClassName is not defined(…)(anonymous function) @ VM13035:1
+document.getElementsByClassName('.thumbnail').style.width = '20px';
+VM13670:1 Uncaught TypeError: Cannot set property 'width' of undefined(…)(anonymous function) @ VM13670:1
+getElementsByClassName('.thumbnail');
+VM16138:1 Uncaught ReferenceError: getElementsByClassName is not defined(…)(anonymous function) @ VM16138:1
+var images = document.getElementsByClassName('thumbnail');
+undefined
+images
+[<a class=​"thumbnail self may-blank " href=​"/​r/​Jokes/​comments/​532zy6/​why_do_telescopes_like_the_moon_so_much/​" rel=​"nofollow">​</a>​, <a class=​"thumbnail may-blank outbound " href=​"https:​/​/​youtu.be/​4faHdYg8twg" data-href-url=​"https:​/​/​youtu.be/​4faHdYg8twg" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_533036?url=https%3A%2F%2Fyoutu.be%2F4faHdYg8twg&token=AQAAajvcVxPrT9dpFT7EnT3ybymlYngmWM0ZQ7AucZj4ry7vcHwL" data-outbound-expiration=​"1474050922000" rel=​"nofollow">​…​</a>​, <a class=​"thumbnail may-blank outbound " href=​"http:​/​/​i.imgur.com/​v6llgSs.gif" data-href-url=​"http:​/​/​i.imgur.com/​v6llgSs.gif" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_5330b2?url=http%3A%2F%2Fi.imgur.com%2Fv6llgSs.gif&token=AQAAajvcV-p01UJyOPUcF6hD5nwxnVFNgCJTttKOAH0nRAE9xjbi" data-outbound-expiration=​"1474050922000" rel>​…​</a>​, <a class=​"thumbnail may-blank outbound " href=​"http:​/​/​imgur.com/​gCW71H7" data-href-url=​"http:​/​/​imgur.com/​gCW71H7" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_5330en?url=http%3A%2F%2Fimgur.com%2FgCW71H7&token=AQAAajvcVycWjU_XSHxmJEWrxehFRBNdck8Up54Pn_nfRRM0EVH5" data-outbound-expiration=​"1474050922000" rel=​"nofollow">​…​</a>​, <a class=​"thumbnail may-blank outbound " href=​"https:​/​/​www.youtube.com/​watch?v=Ix_11UeGwYY" data-href-url=​"https:​/​/​www.youtube.com/​watch?v=Ix_11UeGwYY" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_5330hi?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DIx_11UeGwYY&token=AQAAajvcVz0J8vigqMnU8nlj4WmvUJyofXs9iETWTh5cHevJC2E-" data-outbound-expiration=​"1474050922000" rel>​…​</a>​, <a class=​"thumbnail may-blank outbound " href=​"https:​/​/​youtu.be/​vUnEWmPf_jI" data-href-url=​"https:​/​/​youtu.be/​vUnEWmPf_jI" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_5330cx?url=https%3A%2F%2Fyoutu.be%2FvUnEWmPf_jI&token=AQAAajvcVy4EtykmhlX6qtBkgxdwpW7y-7AWcdgXt4O03xRN62_x" data-outbound-expiration=​"1474050922000" rel=​"nofollow">​…​</a>​, <a class=​"thumbnail may-blank " href=​"/​r/​EarthPorn/​comments/​53302n/​dettifoss_iceland_oc6000x4000/​" rel>​…​</a>​, <a class=​"thumbnail may-blank outbound " href=​"https:​/​/​i.reddituploads.com/​f25dd6cf7eca4c7593582fe824e4a718?fit=max&h=1536&w=1536&s=4888626e919fb6a42458d8cbe95b171d" data-href-url=​"https:​/​/​i.reddituploads.com/​f25dd6cf7eca4c7593582fe824e4a718?fit=max&h=1536&w=1536&s=4888626e919fb6a42458d8cbe95b171d" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_5330p2?url=https%3A%2F%2Fi.reddituploads.com%2Ff25dd6cf7eca4c7593582fe824e4a718%3Ffit%3Dmax%26h%3D1536%26w%3D1536%26s%3D4888626e919fb6a42458d8cbe95b171d&token=AQAAajvcVwCgrde6KOO4fj5aKOmLMgGb9r97OIK6YC6L-U_X9GhH" data-outbound-expiration=​"1474050922000" rel=​"nofollow">​…​</a>​, <a class=​"thumbnail self may-blank " href=​"/​r/​explainlikeimfive/​comments/​5330et/​eli5_spicy_food_doesnt_trigger_the_taste_senses/​" rel=​"nofollow">​</a>​, <a class=​"thumbnail self may-blank " href=​"/​r/​WritingPrompts/​comments/​5330m2/​wp_you_are_the_worlds_first_superhuman_but_your/​" rel=​"nofollow">​</a>​, <a class=​"thumbnail may-blank " href=​"/​/​pixel.redditmedia.com/​click?url=https%3A%2F%2Fengine.a.redditmedia.com…ebb0ff88f070d34acc1b54cf6d709eecf3947fa&id=t3_52m3xx-__EXTERNAL_CAMPAIGN__" rel=​"nofollow">​…​</a>​, <a class=​"thumbnail may-blank outbound " href=​"http:​/​/​i.imgur.com/​kaJsIzz.jpg" data-href-url=​"http:​/​/​i.imgur.com/​kaJsIzz.jpg" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_531m8h?url=http%3A%2F%2Fi.imgur.com%2FkaJsIzz.jpg&token=AQAAajvcVz2EzdJu47P-1srw3y9GGOeOcavQkr92A_ceiDsFkvgl" data-outbound-expiration=​"1474050922000" rel>​…​</a>​, <a class=​"thumbnail may-blank outbound " href=​"http:​/​/​i.imgur.com/​FMZyrLT.gifv" data-href-url=​"http:​/​/​i.imgur.com/​FMZyrLT.gifv" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_531ge5?url=http%3A%2F%2Fi.imgur.com%2FFMZyrLT.gifv&token=AQAAajvcV8zcDESRpne_dKBQbgDa-2GOrwWG2q4db6MwPPz-yLaF" data-outbound-expiration=​"1474050922000" rel>​…​</a>​, <a class=​"thumbnail may-blank outbound " href=​"http:​/​/​i.imgur.com/​FKoQHch.gifv" data-href-url=​"http:​/​/​i.imgur.com/​FKoQHch.gifv" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_531i9v?url=http%3A%2F%2Fi.imgur.com%2FFKoQHch.gifv&token=AQAAajvcV5YPLlMLzdp_OVW2NCJhXPnv1Blm1TDvGoo4-iM_2LgQ" data-outbound-expiration=​"1474050922000" rel>​…​</a>​, <a class=​"thumbnail may-blank outbound " href=​"https:​/​/​i.reddituploads.com/​74201287cc17470db541e725d60663a6?fit=max&h=1536&w=1536&s=06bfad56045cea8a3969f0f87e5e900f" data-href-url=​"https:​/​/​i.reddituploads.com/​74201287cc17470db541e725d60663a6?fit=max&h=1536&w=1536&s=06bfad56045cea8a3969f0f87e5e900f" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_531oot?url=https%3A%2F%2Fi.reddituploads.com%2F74201287cc17470db541e725d60663a6%3Ffit%3Dmax%26h%3D1536%26w%3D1536%26s%3D06bfad56045cea8a3969f0f87e5e900f&token=AQAAajvcV20a_AXda9n9qy3VmQj1fcoXIqGbpm7KxpKK9CC2quWL" data-outbound-expiration=​"1474050922000" rel>​…​</a>​, <a class=​"thumbnail may-blank outbound " href=​"http:​/​/​i.imgur.com/​xXk9hI9.gifv" data-href-url=​"http:​/​/​i.imgur.com/​xXk9hI9.gifv" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_531dnp?url=http%3A%2F%2Fi.imgur.com%2FxXk9hI9.gifv&token=AQAAajvcV8YYid2aFd-GeQJTFzhgNxwdp0bHAXUlP_lYUmm6aeGe" data-outbound-expiration=​"1474050922000" rel>​…​</a>​, <a class=​"thumbnail may-blank outbound " href=​"http:​/​/​www.guns.com/​2014/​01/​16/​fuel-tanks-jettisoned-u-s-fighter-jets-vietnam-repurposed-canoes/​" data-href-url=​"http:​/​/​www.guns.com/​2014/​01/​16/​fuel-tanks-jettisoned-u-s-fighter-jets-vietnam-repurposed-canoes/​" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_531a9q?url=http%3A%2F%2Fwww.guns.com%2F2014%2F01%2F16%2Ffuel-tanks-jettisoned-u-s-fighter-jets-vietnam-repurposed-canoes%2F&token=AQAAajvcVwtl7JtnH2X9SKPBjjGaPV1RBXvx2bVWlFtYB12ugY9h" data-outbound-expiration=​"1474050922000" rel>​…​</a>​, <a class=​"thumbnail may-blank outbound " href=​"http:​/​/​www.cardiff.ac.uk/​news/​view/​472219-judging-levels-of-drunkenness" data-href-url=​"http:​/​/​www.cardiff.ac.uk/​news/​view/​472219-judging-levels-of-drunkenness" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_5318ph?url=http%3A%2F%2Fwww.cardiff.ac.uk%2Fnews%2Fview%2F472219-judging-levels-of-drunkenness&token=AQAAajvcV5cacogL1QHEHfK8Y0yFbNjmWZhOvbHEzHzb8kxqqFVp" data-outbound-expiration=​"1474050922000" rel>​<img src=​"/​/​b.thumbs.redditmedia.com/​Om_21Cm2KsMmKmnCROMJx4yIXCz84xVfKdRNaOQI13I.jpg" width=​"70" height=​"46" alt>​</a>​, <a class=​"thumbnail may-blank outbound " href=​"https:​/​/​www.youtube.com/​watch?v=qH-J1R5bFEE" data-href-url=​"https:​/​/​www.youtube.com/​watch?v=qH-J1R5bFEE" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_531l11?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqH-J1R5bFEE&token=AQAAajvcVxyAhUvpffpJysMu1PWaWEjwSNAkKEHi2F1wdr0kRtUE" data-outbound-expiration=​"1474050922000" rel>​…​</a>​, <a class=​"thumbnail default may-blank outbound " href=​"http:​/​/​www.independent.co.uk/​news/​business/​news/​apple-tax-japan-penalty-iphone-maker-forced-to-pay-fine-a7310846.html" data-href-url=​"http:​/​/​www.independent.co.uk/​news/​business/​news/​apple-tax-japan-penalty-iphone-maker-forced-to-pay-fine-a7310846.html" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_5314jn?url=http%3A%2F%2Fwww.independent.co.uk%2Fnews%2Fbusiness%2Fnews%2Fapple-tax-japan-penalty-iphone-maker-forced-to-pay-fine-a7310846.html&token=AQAAajvcV2N2SNxxJ62yW8bnVBmnmJxrA3P_Ujrw9Pj_7LbZacun" data-outbound-expiration=​"1474050922000" rel>​</a>​, <a class=​"thumbnail default may-blank outbound " href=​"http:​/​/​www.timesofisrael.com/​in-leaked-emails-colin-powell-says-israel-has-200-nukes/​" data-href-url=​"http:​/​/​www.timesofisrael.com/​in-leaked-emails-colin-powell-says-israel-has-200-nukes/​" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_531613?url=http%3A%2F%2Fwww.timesofisrael.com%2Fin-leaked-emails-colin-powell-says-israel-has-200-nukes%2F&token=AQAAajvcV82Kr6yniGAe5y5IaHnsvZ83U1BzY9nHhmMhis1Zr2Ze" data-outbound-expiration=​"1474050922000" rel>​</a>​, <a class=​"thumbnail may-blank outbound " href=​"https:​/​/​i.reddituploads.com/​9a529c98b2a9454e9c6bff0b35c07d9a?fit=max&h=1536&w=1536&s=63034f121bd350379e3cc3c7efc15b70" data-href-url=​"https:​/​/​i.reddituploads.com/​9a529c98b2a9454e9c6bff0b35c07d9a?fit=max&h=1536&w=1536&s=63034f121bd350379e3cc3c7efc15b70" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_531o5t?url=https%3A%2F%2Fi.reddituploads.com%2F9a529c98b2a9454e9c6bff0b35c07d9a%3Ffit%3Dmax%26h%3D1536%26w%3D1536%26s%3D63034f121bd350379e3cc3c7efc15b70&token=AQAAajvcV77cN_LiuaYu0YoHxlQc4GYaj-TfTgAIxExOeLx77IoJ" data-outbound-expiration=​"1474050922000" rel>​<img src=​"/​/​b.thumbs.redditmedia.com/​oAwpM9v0TteLhgYzwHJPgxsUQaIFdsW5pZoDvqx_XIg.jpg" width=​"70" height=​"70" alt>​</a>​, <a class=​"thumbnail self may-blank " href=​"/​r/​Jokes/​comments/​531f5z/​did_you_know_that_iceland/​" rel>​</a>​, <a class=​"thumbnail self may-blank " href=​"/​r/​Showerthoughts/​comments/​53156u/​a_cell_phone_doesnt_seem_that_heavy_till_you_drop/​" rel>​</a>​, <a class=​"thumbnail may-blank " href=​"/​r/​dataisbeautiful/​comments/​53189l/​area_required_to_give_every_individual_human_not/​" rel>​…​</a>​, <a class=​"thumbnail may-blank outbound " href=​"http:​/​/​www.flickeringmyth.com/​2016/​09/​henry-cavills-manager-confirms-man-of-steel-sequel/​" data-href-url=​"http:​/​/​www.flickeringmyth.com/​2016/​09/​henry-cavills-manager-confirms-man-of-steel-sequel/​" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_531ew2?url=http%3A%2F%2Fwww.flickeringmyth.com%2F2016%2F09%2Fhenry-cavills-manager-confirms-man-of-steel-sequel%2F&token=AQAAajvcV0PvZ-e-hPQMBGqtAyuCzRFwLyOYzL4vWupgipa7WK6r" data-outbound-expiration=​"1474050922000" rel>​…​</a>​, <a class=​"thumbnail self may-blank " href=​"/​r/​LifeProTips/​comments/​532asd/​lpt_if_youre_still_hungry_shortly_after_youve/​" rel>​</a>​, <a class=​"thumbnail self may-blank " href=​"/​r/​IAmA/​comments/​531x2c/​im_brian_brushwood_creatorhost_of_scam_school_for/​" rel>​</a>​, <a class=​"thumbnail may-blank outbound " href=​"http:​/​/​www.theverge.com/​circuitbreaker/​2016/​8/​31/​12731214/​sgnl-kickstarter-wristband-samsung-innomdle-lab" data-href-url=​"http:​/​/​www.theverge.com/​circuitbreaker/​2016/​8/​31/​12731214/​sgnl-kickstarter-wristband-samsung-innomdle-lab" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_5314vp?url=http%3A%2F%2Fwww.theverge.com%2Fcircuitbreaker%2F2016%2F8%2F31%2F12731214%2Fsgnl-kickstarter-wristband-samsung-innomdle-lab&token=AQAAajvcV3eK3V107P38OgRJn5dO_mqe2pf7n1pt_lFoeoOO5tB2" data-outbound-expiration=​"1474050922000" rel>​…​</a>​, <a class=​"thumbnail may-blank outbound " href=​"http:​/​/​phys.org/​news/​2016-09-black-hole-hidden-exhaust.html" data-href-url=​"http:​/​/​phys.org/​news/​2016-09-black-hole-hidden-exhaust.html" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_531ggp?url=http%3A%2F%2Fphys.org%2Fnews%2F2016-09-black-hole-hidden-exhaust.html&token=AQAAajvcV1PsKdH-6L-5exid6lDoXV2EwUzqNmRE3wK1c1fCqcV1" data-outbound-expiration=​"1474050922000" rel>​<img src=​"/​/​b.thumbs.redditmedia.com/​EW4Zzd64jAglZInCwaOv5xhf3Suev7wFQC9Nsw5n1HU.jpg" width=​"70" height=​"43" alt>​</a>​, <a class=​"thumbnail self may-blank " href=​"/​r/​AskReddit/​comments/​531k6t/​what_do_you_wish_still_existed_from_your_childhood/​" rel>​</a>​, <a class=​"thumbnail may-blank " href=​"/​r/​Art/​comments/​530v5r/​human_resources_digital/​" rel>​…​</a>​, <a class=​"thumbnail may-blank outbound " href=​"http:​/​/​www.bbc.co.uk/​news/​live/​uk-england-coventry-warwickshire-37336…offee%20machine%20delays%20train%26&ns_fee=0#post_57daccc3e4b0c27cfe0047da" data-href-url=​"http:​/​/​www.bbc.co.uk/​news/​live/​uk-england-coventry-warwickshire-37336440?ns_mchannel=social&ns_source=twitter&ns_campaign=bbc_live&ns_linkname=57daccc3e4b0c27cfe0047da%26Man%20stuck%20in%20coffee%20machine%20delays%20train%26&ns_fee=0#post_57daccc3e4b0c27cfe0047da" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_5321dg?url=http%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Flive%2Fuk-england-coventry-warwickshire-37336440%3Fns_mchannel%3Dsocial%26ns_source%3Dtwitter%26ns_campaign%3Dbbc_live%26ns_linkname%3D57daccc3e4b0c27cfe0047da%2526Man%2520stuck%2520in%2520coffee%2520machine%2520delays%2520train%2526%26ns_fee%3D0%23post_57daccc3e4b0c27cfe0047da&token=AQAAajvcV_haKMdEKtHdCBNre8DeFKyiZbmQbvulgU7F3krJ_pdi" data-outbound-expiration=​"1474050922000" rel>​…​</a>​, <a class=​"thumbnail self may-blank " href=​"/​r/​explainlikeimfive/​comments/​5317as/​eli5_do_aquatic_animals_stay_in_the_same_stretch/​" rel>​</a>​, <a class=​"thumbnail may-blank outbound " href=​"http:​/​/​i.imgur.com/​8eW4yUl.jpg" data-href-url=​"http:​/​/​i.imgur.com/​8eW4yUl.jpg" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_5304zk?url=http%3A%2F%2Fi.imgur.com%2F8eW4yUl.jpg&token=AQAAajvcV_jcJdxPMUvH_GMp8te_8FQ1zKne23NSHnw_unOHedpD" data-outbound-expiration=​"1474050922000" rel>​…​</a>​, <a class=​"thumbnail may-blank outbound " href=​"https:​/​/​c1.staticflickr.com/​9/​8669/​29618870165_6898d8db26_o.jpg" data-href-url=​"https:​/​/​c1.staticflickr.com/​9/​8669/​29618870165_6898d8db26_o.jpg" data-outbound-url=​"https:​/​/​out.reddit.com/​t3_52zy55?url=https%3A%2F%2Fc1.staticflickr.com%2F9%2F8669%2F29618870165_6898d8db26_o.jpg&token=AQAAajvcV6am_uOhN4XqFzCXzCcwn2YQUaspzq0uj7Po07ZD86rH" data-outbound-expiration=​"1474050922000" rel>​…​</a>​]
+for (i=0; i < images.length; i++) { images[i].img.style.width = '20px'; };
+VM21123:1 Uncaught TypeError: Cannot read property 'style' of undefined(…)(anonymous function) @ VM21123:1
+for (i=0; i < images.length; i++) { images[i].a.img.style.width = '20px'; };
+VM24167:1 Uncaught TypeError: Cannot read property 'img' of undefined(…)(anonymous function) @ VM24167:1
+var images = document.getElementsByClassName('thumbnail img');
+undefined
+var images
+undefined
+var images = document.getElementByClassName('thumbnail').img;
+VM25878:1 Uncaught TypeError: document.getElementByClassName is not a function(…)(anonymous function) @ VM25878:1
+var images = document.getElementByClassName('thumbnail');
+VM26609:1 Uncaught TypeError: document.getElementByClassName is not a function(…)(anonymous function) @ VM26609:1
+var images = document.getElementsByClassName('thumbnail');
+undefined
+for (i=0; i < images.length; i++) { images[i].style.width = '20px'; };
+"20px"
+for (i=0; i < images.length; i++) { images[i].style.height = '20px'; };
+"20px"
+links = document.getElementsByTagName('a');
+HTMLCollection[408]
+links.style.backgroundColor = 'red';
+VM29314:1 Uncaught TypeError: Cannot set property 'backgroundColor' of undefined(…)(anonymous function) @ VM29314:1
+for (i=0; i < links.length; i++) { links[i].style.backgroundColor = 'red'; };
+"red"
+document.querySelector[3]('.unvoted').innerHTML = '3000';
+VM33639:1 Uncaught TypeError: document.querySelector[3] is not a function(…)(anonymous function) @ VM33639:1
+document.querySelector('.unvoted')[3].innerHTML = '3000';
+VM33956:1 Uncaught TypeError: Cannot set property 'innerHTML' of undefined(…)(anonymous function) @ VM33956:1
+document.querySelectorAll('.unvoted')[3].innerHTML = '3000';
+"3000"
+document.querySelectorAll('.score')[3].innerHTML = '3000';
+"3000"
+document.querySelectorAll('.score > .unvoted')[3].innerHTML = '3000';
+VM45162:1 Uncaught TypeError: Cannot set property 'innerHTML' of undefined(…)(anonymous function) @ VM45162:1
+document.querySelectorAll('.unvoted')[2].innerHTML = '3000';
+"3000"
+var thirdPost = document.querySelector('#thing_t3_531i9v').innerHTML = '3000';
+undefined
+var thirdPost = document.querySelector('#thing_t3_531i9v');
+undefined
+thirdPost.unscored.innerHTML = '3000';
+VM48896:1 Uncaught TypeError: Cannot set property 'innerHTML' of undefined(…)(anonymous function) @ VM48896:1
+var thirdPost = document.querySelector('#thing_t3_531i9v.score');
+undefined
+thirdPost
+null
+var thirdPost = document.querySelector('#thing_t3_531i9v .score');
+undefined
+thirdPost
+null
+var thirdPost = document.querySelector('#thing_t3_531i9v');
+undefined
+thirdPost.score
+undefined
+var upvotes = document.querySelector('#thing_t3_531i9v');
+undefined
+var thirdPost = document.querySelector('#thing_t3_531i9v.score.unvoted');
+undefined
+thirdPost
+null
+var thirdPost = document.querySelector('#thing_t3_531ge5.score.unvoted');
+undefined
+thirdPost
+null
+var searchInput = document.querySelector('input.q');
+undefined
+var searchInput = document.querySelector('#search input[name = 'q']);
+VM61660:1 Uncaught SyntaxError: missing ) after argument list
+var searchInput = document.querySelector('#search input[name = 'q']');
+VM61909:1 Uncaught SyntaxError: missing ) after argument list
+var searchInput = document.querySelector('#search input[name = "q"]');
+undefined
+searchInput
+<input type=​"text" name=​"q" placeholder=​"search" tabindex=​"20">​
+searchInput.value('anything');
+VM63704:1 Uncaught TypeError: searchInput.value is not a function(…)(anonymous function) @ VM63704:1
+searchInput.value = 'anything';
+"anything"
+searchInput.placeholder.value = 'anything';
+"anything"
+searchInput.placeholder = 'huzzah';
+"huzzah"
+searchInput.value = '';
+""
+
+
+-----------
+
+
+
+document.querySelector('.StreamsHero-header').addEventListener('click', function() { document.querySelector('.StreamsHero-header').style.backgroundColor = 'blue'; }); 
+
+
+EXERCISE: change search box placeholder:
+
+var searchInput = document.querySelector('#search input[name = "q"]');
+searchInput.placeholder = 'huzzah';
+
+
+EXERCISE: on click change header to blue:
+
+document.querySelector('.StreamsHero-header').addEventListener('click', function() { document.querySelector('.StreamsHero-header').style.backgroundColor = 'blue'; }); 
+
+(this shoudl have stored variable first to make cleaner)
+
+EXERCISE: Change Rank #s:
+
+var ranks = document.querySelectorAll('.rank');
+for (i = 0; i < ranks.length; i++) {ranks[i].innerHTML = i};
+
+forEach way:
+var ranks = document.querySelectorAll('.rank');
+ranks.forEach(function(rank, index) { rank.textContent = index;});
